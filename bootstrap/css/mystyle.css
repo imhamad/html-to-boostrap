@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.jumbotron {
+    padding: 7px;
+    margin-bottom:0px;
+    background-color: #67645B;
+    border-radius: 0px;
+    color: white
+}
+
+/*    slider css   */
+
+.slider_img_custom{
+   min-width: 100%;
+    min-height: 100%;
+    max-height: 580px;
+
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 200px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    font-weight: 900;
+}
+        
+
+/*   slider css  ends   */
+
+/*  navbar     */
+.custom-navbar {
+    background: linear-gradient(#FEFEFE, #D5D0CC)
+}
+
+.icon-navbar {
+    color: #A6002B;
+
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 3px;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+     
+}
+.navbar-expand-xl .navbar-nav .nav-link {
+     padding-right: 5px; 
+    padding-left: .5rem;
+    
+}
+
+.border-right{
+    border-right: 2px solid white !important
+}
+/*navbar ends*/
+
+/*    ////    section 3  /////*/
+
+
+.section_3_content{
+   background-color: #A00024
+}
+
+.blog_anchor{
+    color:#89413C;
+    font-weight: 700
+}
+.blog_anchor:hover{
+   
+    color:#89413C;
+}
+
+#footer{
+    background-image: url("../assets/footer_bg.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.footer-content{
+    color:#89413C;
+   text-decoration: none
+}
+.footer-content:hover{
+    color:#89413C;
+   text-decoration: none
+}
+.footer_subcontent{
+    font-weight: 600
+}
+.footer_subcontent:hover{
+    text-decoration: none;
+    color:#822467;
+    font-weight: 600
+    
+}
