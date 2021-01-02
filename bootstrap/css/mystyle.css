@@ -86,7 +86,8 @@ body {
 #footer{
     background-image: url("../assets/footer_bg.gif");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: contain;
+        background-color: rgb(234, 233, 229);
 }
 
 .footer-content{
@@ -105,4 +106,17 @@ body {
     color:#822467;
     font-weight: 600
     
+}
+.footer_icon_custom{
+    width: 30px
+}
+.footer_bar_content{
+    font-size: 12px;
+    color: black;
+    font-weight: 600
+        
+}
+.footer_bar_content:hover{
+    text-decoration: none;
+    color: black
 }
