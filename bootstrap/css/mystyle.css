@@ -129,6 +129,22 @@ body {
     color: black
 }
 
+
+/*page 2 contact*/
+
+.champs_heading{
+    color: #FF0000;
+    font-weight: 700
+}
+
+.contact_us_icon{
+    max-width: 20px;
+    color: white
+}
+/*page 2 contact end*/
+
+
+
 @media screen and (max-width: 568px){
     .logo {
 min-width:100% !important;
