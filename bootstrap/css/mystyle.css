@@ -193,14 +193,12 @@ body {
 
 
 
-@media screen and (max-width: 568px) {
-    .logo .img-fluid {
-        min-width: 100% !important;
-    }
+@media screen and (max-width: 568px)
 
-    .mti__logo {
-        min-width: 100%;
-    }
+.logo .img-fluid {
+    min-width: 100px !important;
+    position: relative;
+    right: 3.5em;
 }
 
 .nav-link,
@@ -214,4 +212,15 @@ body {
 
 .nav-item:hover {
     color: #C00133 !important;
+}
+
+
+
+
+@media screen and (max-width: 568px){
+.logo .img-fluid {
+min-width: 100px !important;
+  position: relative;
+  right: 3.5em;
+}
 }
