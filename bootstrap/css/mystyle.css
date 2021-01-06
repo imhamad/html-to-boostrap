@@ -247,3 +247,8 @@ min-width: 100px !important;
     color: #b0002d !important;
     text-decoration-color:#b0002d;;
 }
+blockquote p{
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+}
