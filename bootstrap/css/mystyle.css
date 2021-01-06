@@ -96,6 +96,12 @@ body {
     padding-right: 10px;
     padding-left: .5rem;
 }
+.dropdown-menu{
+    background: #C6BFB7;
+}
+.dropdown-item:hover{
+    background: transparent
+}
 
 /*navbar ends*/
 
@@ -117,7 +123,9 @@ body {
 .card_custom {
     min-height: 200px;
 
-
+}
+.actualites_header{
+    background-color: white
 }
 
 .blog_anchor {
@@ -132,6 +140,9 @@ body {
 
 .actualties_one {
     background-color: #CCE4FF;
+}
+.breadcrumb{
+    background-color: white;
 }
 
 #footer {
@@ -187,6 +198,9 @@ body {
 .contact_us_icon {
     max-width: 20px;
     color: white
+}
+.contact_custom_jumbotron{
+    background-color: #C8C8C8;
 }
 
 /*page 2 contact end*/
@@ -251,4 +265,7 @@ blockquote p{
     font-weight: 700;
     font-size: 14px;
     color: black;
+}
+.border_custom_contact{
+    border:1px solid #007BFF;
 }
