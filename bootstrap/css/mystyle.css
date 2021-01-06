@@ -96,6 +96,12 @@ body {
     padding-right: 10px;
     padding-left: .5rem;
 }
+.dropdown-menu{
+    background: #C6BFB7;
+}
+.dropdown-item:hover{
+    background: transparent
+}
 
 /*navbar ends*/
 
@@ -117,7 +123,9 @@ body {
 .card_custom {
     min-height: 200px;
 
-
+}
+.actualites_header{
+    background-color: white
 }
 
 .blog_anchor {
