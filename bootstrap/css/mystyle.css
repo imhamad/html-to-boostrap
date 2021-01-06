@@ -142,7 +142,7 @@ body {
 }
 
 .footer-content {
-    color: #89413C;
+    color: #b0002d;
     text-decoration: none
 }
 
@@ -157,7 +157,7 @@ body {
 
 .footer_subcontent:hover {
     text-decoration: none;
-    color: #822467;
+    color: #b0002d;
     font-weight: 600
 }
 
@@ -232,5 +232,23 @@ min-width: 100px !important;
     border: 1px solid #2699EE;
 }
 .card_custom {
-    min-height: 145px;
+    min-height: 135px;
+}
+.blog_anchor{
+    color: #b0002d;
+    text-decoration: none;
+    margin-left: .5em;
+}
+.card__fonts{
+    font-weight: bold;
+    font-size: 14px;
+}
+.theme__color{
+    color: #b0002d !important;
+    text-decoration-color:#b0002d;;
+}
+blockquote p{
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
 }
