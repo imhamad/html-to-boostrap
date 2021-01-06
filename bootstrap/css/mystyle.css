@@ -242,3 +242,7 @@ min-width: 100px !important;
     font-weight: bold;
     font-size: 14px;
 }
+.theme__color{
+    color: #b0002d !important;
+    text-decoration-color:#b0002d;;
+}
