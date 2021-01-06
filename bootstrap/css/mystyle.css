@@ -234,3 +234,11 @@ min-width: 100px !important;
 .card_custom {
     min-height: 145px;
 }
+.blog_anchor{
+    color: #b0002d;
+    text-decoration: none;
+}
+.card__fonts{
+    font-weight: bold;
+    font-size: 14px;
+}
