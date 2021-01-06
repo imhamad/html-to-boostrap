@@ -142,7 +142,7 @@ body {
 }
 
 .footer-content {
-    color: #89413C;
+    color: #b0002d;
     text-decoration: none
 }
 
@@ -157,7 +157,7 @@ body {
 
 .footer_subcontent:hover {
     text-decoration: none;
-    color: #822467;
+    color: #b0002d;
     font-weight: 600
 }
 
@@ -237,6 +237,7 @@ min-width: 100px !important;
 .blog_anchor{
     color: #b0002d;
     text-decoration: none;
+    margin-left: .5em;
 }
 .card__fonts{
     font-weight: bold;
