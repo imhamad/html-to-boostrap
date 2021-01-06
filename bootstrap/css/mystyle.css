@@ -141,6 +141,9 @@ body {
 .actualties_one {
     background-color: #CCE4FF;
 }
+.breadcrumb{
+    background-color: white;
+}
 
 #footer {
     background-image: url("../assets/footer_bg.gif");
@@ -195,6 +198,9 @@ body {
 .contact_us_icon {
     max-width: 20px;
     color: white
+}
+.contact_custom_jumbotron{
+    background-color: #C8C8C8;
 }
 
 /*page 2 contact end*/
@@ -259,4 +265,7 @@ blockquote p{
     font-weight: 700;
     font-size: 14px;
     color: black;
+}
+.border_custom_contact{
+    border:1px solid #007BFF;
 }
