@@ -232,7 +232,7 @@ min-width: 100px !important;
     border: 1px solid #2699EE;
 }
 .card_custom {
-    min-height: 145px;
+    min-height: 135px;
 }
 .blog_anchor{
     color: #b0002d;
@@ -241,4 +241,8 @@ min-width: 100px !important;
 .card__fonts{
     font-weight: bold;
     font-size: 14px;
+}
+.theme__color{
+    color: #b0002d !important;
+    text-decoration-color:#b0002d;;
 }
