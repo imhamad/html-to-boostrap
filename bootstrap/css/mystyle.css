@@ -113,11 +113,22 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
-
 .custom_contact {
-    max-width: 200%;
+    max-width: 135%;
     position: relative;
     left: -40px;
+    padding-top: 14px;
+    
+}
+@media screen and (max-width:767px){
+.custom_contact {
+    max-width: 100%;
+    position: relative;
+    left: 0px;
+    padding-top: 10px;
+    text-align: center
+    
+}
 }
 
 .card_custom {
