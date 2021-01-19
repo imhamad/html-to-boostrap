@@ -16,7 +16,7 @@ body {
     background-color: #67645B;
     border-radius: 0px;
     color: white;
-    transform: skewX(-4deg);
+    transform: skewX(0deg);
     transform-origin: left top;
 }
 
@@ -118,7 +118,7 @@ body {
     position: relative;
     left: -40px;
     padding-top: 14px;
-    
+
 }
 @media screen and (max-width:767px){
 .custom_contact {
@@ -127,7 +127,7 @@ body {
     left: 0px;
     padding-top: 10px;
     text-align: center
-    
+
 }
 }
 
@@ -279,4 +279,21 @@ blockquote p{
 }
 .border_custom_contact{
     border:1px solid #007BFF;
+}
+.custom__strap{
+    width:99.5%;
+    position: relative;
+}
+.custom__strap::after{
+    content: url('../assets/strap-right.jpg');
+    position: absolute;
+    right: -8px;
+    top: 0;
+
+}
+.f__size{
+    font-size: .95em !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
