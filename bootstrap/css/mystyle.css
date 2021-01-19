@@ -297,3 +297,6 @@ blockquote p{
     justify-content: center;
     align-items: center;
 }
+.footer_subcontent p:hover{
+color:#A6002B;
+}
